@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\01.Core">
+      <UniqueIdentifier>{20c0365f-495b-4591-98ce-30fa99efce56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Core\01.Device">
+      <UniqueIdentifier>{0e553b86-fb46-4c43-9cf7-f2e8a85aaa7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Managers">
+      <UniqueIdentifier>{cf53556c-c307-4c11-ad70-a16d69e30f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Scene">
+      <UniqueIdentifier>{5c06b5a0-f2ed-49f5-9934-79dcfe75b13a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Core\02.Math">
+      <UniqueIdentifier>{8ccf683f-5acd-49b7-a929-cccec366e98c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05.Rendering">
+      <UniqueIdentifier>{c0f1d169-0f85-4f0f-ba1a-134bbc121cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05.Rendering\01.Shader">
+      <UniqueIdentifier>{753b767c-8228-4ba4-83c5-2c82516c7a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05.Rendering\01.Shader\HLSL">
+      <UniqueIdentifier>{fdeea83c-4c16-4be9-be64-9fe303f9087a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Component">
+      <UniqueIdentifier>{fbd4d429-5fbc-4511-b263-92ff113e79b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Core\03.Component">
+      <UniqueIdentifier>{7b4fbce9-5ba6-430a-af76-b05d2fe5b2f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Core\04.Scene">
+      <UniqueIdentifier>{5557c0e5-2778-4709-a16f-262ffaca6286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Core\06.GameObject">
+      <UniqueIdentifier>{1101d01a-d14b-4463-8229-74b086916874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Core\05.Layer">
+      <UniqueIdentifier>{48438ec0-6c28-4d1c-869c-25a646f8a6be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Core\07.Transform">
+      <UniqueIdentifier>{ecd615a7-a1c7-4e63-a4e8-056ca7a16b51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Component\01.Renderer">
+      <UniqueIdentifier>{0c876a9a-a6a6-4c9c-9de5-fcf923cbafb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Core\08.Timer">
+      <UniqueIdentifier>{c5af0859-8076-4f80-8aa1-74b15c60c46c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Core\09.input">
+      <UniqueIdentifier>{2cf5d8d0-0208-4565-8d39-dc790489fc06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05.Rendering\02.Sampler">
+      <UniqueIdentifier>{9e9b1a02-052e-4d87-b762-3407a3632666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05.Rendering\03.RenderState">
+      <UniqueIdentifier>{4e3418a3-cae6-4225-8b40-2d92fba94b3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05.Rendering\03.RenderState\01.BlendState">
+      <UniqueIdentifier>{51338fb3-e511-4c83-a5c5-2e716f21c500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05.Rendering\03.RenderState\02.DepthStencilState">
+      <UniqueIdentifier>{b0cb866c-9e19-48e7-a024-329a673a10d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05.Rendering\03.RenderState\03.RasterizerState">
+      <UniqueIdentifier>{923225ce-9505-4422-bc3b-f5df18332b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Core\10.Thread">
+      <UniqueIdentifier>{79f828c3-bc9b-4489-b342-91149af41acb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Component\03.Collider">
+      <UniqueIdentifier>{f78b92d8-ba17-4fd0-9c6c-fb5235a9fb13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Component\04.Animator">
+      <UniqueIdentifier>{6fa70ad8-f680-42ec-ac38-10c62ebada9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Component\05.UI">
+      <UniqueIdentifier>{e20a8806-a2dd-4c18-8391-9a7fca425358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Component\06.Camera">
+      <UniqueIdentifier>{13427a2c-5024-4ea9-baa1-593f9d278655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Component\07.Text">
+      <UniqueIdentifier>{abecc617-74da-4257-818c-c57b52e38fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Component\08.Light">
+      <UniqueIdentifier>{2deb6ba0-8276-4e95-a590-60640777e992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Component\09.Post Process">
+      <UniqueIdentifier>{a9ee2c74-11d3-43e3-8f42-ea0f1a688fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Component\10.Spline">
+      <UniqueIdentifier>{20c3e0cd-aa2d-4f57-bc5e-a4103606ba9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Component\11.Effects">
+      <UniqueIdentifier>{9cf01244-c6c5-4462-bb14-d404b71cbb75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Core\22 Debug">
+      <UniqueIdentifier>{b31a2fd2-dcf5-4ed6-bf5d-7ffce8998a05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Component\12.Terrain">
+      <UniqueIdentifier>{65cfaa76-5337-445a-99f8-22b42e8a11b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Component\20.Editor">
+      <UniqueIdentifier>{661b93fc-99f9-4150-aecb-d57419bf51d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Component\13.Billboard">
+      <UniqueIdentifier>{64b7db5c-fcb6-4fa2-83bb-04e89b95f2a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05.Rendering\04.Resources">
+      <UniqueIdentifier>{6b7854ab-751b-45a1-90f1-c5c3c55cdf40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05.Rendering\04.Resources\01.Mesh">
+      <UniqueIdentifier>{4993caa4-852a-487e-9329-1651398ebf2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05.Rendering\04.Resources\02.Texture">
+      <UniqueIdentifier>{33874dd2-7981-4776-95b2-934cabb3241a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05.Rendering\04.Resources\03.Material">
+      <UniqueIdentifier>{77631018-aa6a-4851-89e5-527d7bb2f305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Component\14.Particle">
+      <UniqueIdentifier>{8e50cc51-4132-49a7-b4b2-84ebfc29f28f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Component\21.Navigation">
+      <UniqueIdentifier>{11c24b96-2882-4414-8a5b-f34ce2cf2e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Component\22.Tile">
+      <UniqueIdentifier>{d8ed0d74-3e8b-4d02-9f55-dd66b26e2a45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Component\23.System">
+      <UniqueIdentifier>{f2b4a05d-173f-4a00-ae42-455594cb2503}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\Exclude.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DirectXTex.inl">
+      <Filter>소스 파일\05.Rendering\04.Resources</Filter>
+    </None>
+    <None Include="..\..\Copy.bat">
+      <Filter>헤더 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>소스 파일\01.Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>소스 파일\01.Core\01.Device</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourcesManager.h">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Ref.h">
+      <Filter>소스 파일\01.Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>소스 파일\01.Core\02.Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>소스 파일\01.Core\02.Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>소스 파일\01.Core\02.Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>소스 파일\01.Core\02.Math</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Flag.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManager.h">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>소스 파일\05.Rendering\01.Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>소스 파일\05.Rendering\04.Resources\01.Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>소스 파일\01.Core\06.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>소스 파일\01.Core\03.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\01.Core\04.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>소스 파일\01.Core\05.Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>소스 파일\01.Core\07.Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>소스 파일\01.Core\08.Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>소스 파일\01.Core\09.input</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>소스 파일\06.Component\03.Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\RectCollider2D.h">
+      <Filter>소스 파일\06.Component\03.Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\CircleCollider2D.h">
+      <Filter>소스 파일\06.Component\03.Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampler.h">
+      <Filter>소스 파일\05.Rendering\02.Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTex.h">
+      <Filter>소스 파일\05.Rendering\04.Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>소스 파일\05.Rendering\04.Resources\02.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderState.h">
+      <Filter>소스 파일\05.Rendering\03.RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendState.h">
+      <Filter>소스 파일\05.Rendering\03.RenderState\01.BlendState</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthStencilState.h">
+      <Filter>소스 파일\05.Rendering\03.RenderState\02.DepthStencilState</Filter>
+    </ClInclude>
+    <ClInclude Include="RasterizerState.h">
+      <Filter>소스 파일\05.Rendering\03.RenderState\03.RasterizerState</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationState.h">
+      <Filter>소스 파일\06.Component\04.Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Transition.h">
+      <Filter>소스 파일\06.Component\04.Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Cursor.h">
+      <Filter>소스 파일\06.Component\05.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Animator.h">
+      <Filter>소스 파일\06.Component\04.Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>소스 파일\01.Core\10.Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\UICollider.h">
+      <Filter>소스 파일\06.Component\03.Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\SpriteRenderer.h">
+      <Filter>소스 파일\06.Component\01.Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Camera.h">
+      <Filter>소스 파일\06.Component\06.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Text.h">
+      <Filter>소스 파일\06.Component\07.Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\MeshRenderer.h">
+      <Filter>소스 파일\06.Component\01.Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Light.h">
+      <Filter>소스 파일\06.Component\08.Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\DirectionalLight.h">
+      <Filter>소스 파일\06.Component\08.Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\PointLight.h">
+      <Filter>소스 파일\06.Component\08.Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\SpotLight.h">
+      <Filter>소스 파일\06.Component\08.Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\SphereCollider.h">
+      <Filter>소스 파일\06.Component\03.Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingTarget.h">
+      <Filter>소스 파일\05.Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\PostProcessing.h">
+      <Filter>소스 파일\06.Component\09.Post Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>소스 파일\01.Core\22 Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\CardinalSpline.h">
+      <Filter>소스 파일\06.Component\10.Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\OutLine.h">
+      <Filter>소스 파일\06.Component\11.Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXLoader.h">
+      <Filter>소스 파일\05.Rendering\04.Resources\01.Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>소스 파일\05.Rendering\04.Resources\03.Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Terrain.h">
+      <Filter>소스 파일\06.Component\12.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\BoxCollider.h">
+      <Filter>소스 파일\06.Component\03.Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathf.h">
+      <Filter>소스 파일\01.Core\02.Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Gizmo.h">
+      <Filter>소스 파일\06.Component\20.Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Billboard.h">
+      <Filter>소스 파일\06.Component\13.Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationClip.h">
+      <Filter>소스 파일\06.Component\04.Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Particle.h">
+      <Filter>소스 파일\06.Component\14.Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Fire.h">
+      <Filter>소스 파일\06.Component\11.Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Trail.h">
+      <Filter>소스 파일\06.Component\11.Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Water.h">
+      <Filter>소스 파일\06.Component\11.Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Distortion.h">
+      <Filter>소스 파일\06.Component\11.Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Decal.h">
+      <Filter>소스 파일\06.Component\12.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationStateController.h">
+      <Filter>소스 파일\06.Component\04.Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Navigation2D.h">
+      <Filter>소스 파일\06.Component\21.Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Navigation3D.h">
+      <Filter>소스 파일\06.Component\21.Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationManager.h">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationMesh.h">
+      <Filter>소스 파일\06.Component\21.Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Tile.h">
+      <Filter>소스 파일\06.Component\22.Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Stage2DIsoTile.h">
+      <Filter>소스 파일\06.Component\22.Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\UI.h">
+      <Filter>소스 파일\06.Component\05.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\UIButton.h">
+      <Filter>소스 파일\06.Component\05.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\UICheckBox.h">
+      <Filter>소스 파일\06.Component\05.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\UIPanel.h">
+      <Filter>소스 파일\06.Component\05.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\UIRadioButton.h">
+      <Filter>소스 파일\06.Component\05.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\UISlider.h">
+      <Filter>소스 파일\06.Component\05.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\MoveObj.h">
+      <Filter>소스 파일\06.Component\05.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingThread.h">
+      <Filter>소스 파일\01.Core\10.Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Rigidbody.h">
+      <Filter>소스 파일\06.Component\03.Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\TerrainCollider.h">
+      <Filter>소스 파일\06.Component\03.Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\MeshCollider.h">
+      <Filter>소스 파일\06.Component\03.Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Effect.h">
+      <Filter>소스 파일\06.Component\11.Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\SpawningPool.h">
+      <Filter>소스 파일\06.Component\23.System</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\HealthBar.h">
+      <Filter>소스 파일\06.Component\23.System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp">
+      <Filter>소스 파일\01.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>소스 파일\01.Core\01.Device</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourcesManager.cpp">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Ref.cpp">
+      <Filter>소스 파일\01.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>소스 파일\01.Core\02.Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>소스 파일\01.Core\02.Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>소스 파일\01.Core\02.Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>소스 파일\01.Core\02.Math</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManager.cpp">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>소스 파일\05.Rendering\01.Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>소스 파일\05.Rendering\04.Resources\01.Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\01.Core\06.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>소스 파일\01.Core\03.Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\01.Core\04.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>소스 파일\01.Core\05.Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>소스 파일\01.Core\07.Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스 파일\01.Core\08.Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>소스 파일\01.Core\09.input</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>소스 파일\06.Component\03.Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\RectCollider2D.cpp">
+      <Filter>소스 파일\06.Component\03.Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\CircleCollider2D.cpp">
+      <Filter>소스 파일\06.Component\03.Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Sampler.cpp">
+      <Filter>소스 파일\05.Rendering\02.Sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\05.Rendering\04.Resources\02.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendState.cpp">
+      <Filter>소스 파일\05.Rendering\03.RenderState\01.BlendState</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthStencilState.cpp">
+      <Filter>소스 파일\05.Rendering\03.RenderState\02.DepthStencilState</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderState.cpp">
+      <Filter>소스 파일\05.Rendering\03.RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="RasterizerState.cpp">
+      <Filter>소스 파일\05.Rendering\03.RenderState\03.RasterizerState</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationState.cpp">
+      <Filter>소스 파일\06.Component\04.Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Transition.cpp">
+      <Filter>소스 파일\06.Component\04.Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Cursor.cpp">
+      <Filter>소스 파일\06.Component\05.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Animator.cpp">
+      <Filter>소스 파일\06.Component\04.Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>소스 파일\01.Core\10.Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\UICollider.cpp">
+      <Filter>소스 파일\06.Component\03.Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\SpriteRenderer.cpp">
+      <Filter>소스 파일\06.Component\01.Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Camera.cpp">
+      <Filter>소스 파일\06.Component\06.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Text.cpp">
+      <Filter>소스 파일\06.Component\07.Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\MeshRenderer.cpp">
+      <Filter>소스 파일\06.Component\01.Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Light.cpp">
+      <Filter>소스 파일\06.Component\08.Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\DirectionalLight.cpp">
+      <Filter>소스 파일\06.Component\08.Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\PointLight.cpp">
+      <Filter>소스 파일\06.Component\08.Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\SpotLight.cpp">
+      <Filter>소스 파일\06.Component\08.Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\SphereCollider.cpp">
+      <Filter>소스 파일\06.Component\03.Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderingTarget.cpp">
+      <Filter>소스 파일\05.Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\PostProcessing.cpp">
+      <Filter>소스 파일\06.Component\09.Post Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>소스 파일\01.Core\22 Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\CardinalSpline.cpp">
+      <Filter>소스 파일\06.Component\10.Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\OutLine.cpp">
+      <Filter>소스 파일\06.Component\11.Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXLoader.cpp">
+      <Filter>소스 파일\05.Rendering\04.Resources\01.Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>소스 파일\05.Rendering\04.Resources\03.Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Terrain.cpp">
+      <Filter>소스 파일\06.Component\12.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\BoxCollider.cpp">
+      <Filter>소스 파일\06.Component\03.Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathf.cpp">
+      <Filter>소스 파일\01.Core\02.Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Gizmo.cpp">
+      <Filter>소스 파일\06.Component\20.Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Billboard.cpp">
+      <Filter>소스 파일\06.Component\13.Billboard</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationClip.cpp">
+      <Filter>소스 파일\06.Component\04.Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Particle.cpp">
+      <Filter>소스 파일\06.Component\14.Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Fire.cpp">
+      <Filter>소스 파일\06.Component\11.Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Trail.cpp">
+      <Filter>소스 파일\06.Component\11.Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Water.cpp">
+      <Filter>소스 파일\06.Component\11.Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Distortion.cpp">
+      <Filter>소스 파일\06.Component\11.Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Decal.cpp">
+      <Filter>소스 파일\06.Component\12.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationStateController.cpp">
+      <Filter>소스 파일\06.Component\04.Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Navigation2D.cpp">
+      <Filter>소스 파일\06.Component\21.Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Navigation3D.cpp">
+      <Filter>소스 파일\06.Component\21.Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="NavigationManager.cpp">
+      <Filter>소스 파일\03.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="NavigationMesh.cpp">
+      <Filter>소스 파일\06.Component\21.Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Tile.cpp">
+      <Filter>소스 파일\06.Component\22.Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Stage2DIsoTile.cpp">
+      <Filter>소스 파일\06.Component\22.Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\UI.cpp">
+      <Filter>소스 파일\06.Component\05.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\UIButton.cpp">
+      <Filter>소스 파일\06.Component\05.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\UICheckBox.cpp">
+      <Filter>소스 파일\06.Component\05.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\UIPanel.cpp">
+      <Filter>소스 파일\06.Component\05.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\UIRadioButton.cpp">
+      <Filter>소스 파일\06.Component\05.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\UISlider.cpp">
+      <Filter>소스 파일\06.Component\05.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\MoveObj.cpp">
+      <Filter>소스 파일\06.Component\05.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingThread.cpp">
+      <Filter>소스 파일\01.Core\10.Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Rigidbody.cpp">
+      <Filter>소스 파일\06.Component\03.Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\TerrainCollider.cpp">
+      <Filter>소스 파일\06.Component\03.Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\MeshCollider.cpp">
+      <Filter>소스 파일\06.Component\03.Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Effect.cpp">
+      <Filter>소스 파일\06.Component\11.Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\SpawningPool.cpp">
+      <Filter>소스 파일\06.Component\23.System</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\HealthBar.cpp">
+      <Filter>소스 파일\06.Component\23.System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Engine.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\Shader\Share.fx">
+      <Filter>소스 파일\05.Rendering\01.Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Standard.fx">
+      <Filter>소스 파일\05.Rendering\01.Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Collider.fx">
+      <Filter>소스 파일\05.Rendering\01.Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Light.fx">
+      <Filter>소스 파일\05.Rendering\01.Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\PostProcessing.fx">
+      <Filter>소스 파일\05.Rendering\01.Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Effect.fx">
+      <Filter>소스 파일\05.Rendering\01.Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Skybox.fx">
+      <Filter>소스 파일\05.Rendering\01.Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Terrain.fx">
+      <Filter>소스 파일\05.Rendering\01.Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Billboard.fx">
+      <Filter>소스 파일\05.Rendering\01.Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Particle.fx">
+      <Filter>소스 파일\05.Rendering\01.Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Decal.fx">
+      <Filter>소스 파일\05.Rendering\01.Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Fire.fx">
+      <Filter>소스 파일\05.Rendering\01.Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\HDR.fx">
+      <Filter>소스 파일\05.Rendering\01.Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Trail.fx">
+      <Filter>소스 파일\05.Rendering\01.Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Water.fx">
+      <Filter>소스 파일\05.Rendering\01.Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\SpawningPoolDebug.fx">
+      <Filter>소스 파일\05.Rendering\01.Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\HealthBar.fx">
+      <Filter>소스 파일\05.Rendering\01.Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Loading.fx">
+      <Filter>소스 파일\05.Rendering\01.Shader\HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

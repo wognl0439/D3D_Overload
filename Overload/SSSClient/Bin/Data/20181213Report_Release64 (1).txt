@@ -1,0 +1,12 @@
+Frame Count : 131668  Local Scope Count : 5
+Base Scope : Core::Logic
+{
+	UpdateInput	4.650373 %
+	Update	0.369796 %
+	LateUpdate	0.185709 %
+	CollisionUpdate	0.651224 %
+	Render	93.873290 %
+	Others	0.269609 %
+}//Core::Logic End 
+
+

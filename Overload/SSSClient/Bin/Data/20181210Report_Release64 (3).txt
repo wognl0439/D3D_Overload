@@ -1,0 +1,55 @@
+Frame Count : 9229  Local Scope Count : 7
+Base Scope : Core::Logic
+{
+	CInput->Update()	5.395957 %
+	Update()	0.236838 %
+	LateUpdate()	0.061813 %
+	UpdateCollision()	0.199780 %
+	CreateFrustum()	0.031578 %
+	Render()	92.762527 %
+	Report FPS	1.279553 %
+	Others	0.031954 %
+}//Core::Logic End 
+
+
+Frame Count : 9229  Local Scope Count : 2
+Base Scope : Input::Update
+{
+	UpdatePosition()	20.782170 %
+	GetAsyncKeyState()	78.112257 %
+	Others	1.105573 %
+}//Input::Update End 
+
+
+Frame Count : 9229  Local Scope Count : 5
+Base Scope : Core::Render
+{
+	Clear()	0.034638 %
+	SceneManager::Render()	0.163279 %
+	RenderManager::Render()	2.015116 %
+	ClearLight()	0.011933 %
+	Present()	97.730299 %
+	Others	0.044735 %
+}//Core::Render End 
+
+
+Frame Count : 9229  Local Scope Count : 13
+Base Scope : RenderManager::RenderDeferred
+{
+	Sorting For Usage	4.923160 %
+	Create Shadow Map	4.449124 %
+	Create GBuffer	53.773220 %
+	RenderDecal	3.342782 %
+	RenderLightAcc	4.812760 %
+	RenderLightBlend	14.242421 %
+	RenderHDR	0.664042 %
+	RenderBlendTarget	9.134168 %
+	RenderFinalTarget	1.585987 %
+	Debug Render	0.446410 %
+	Distortion Render	1.312302 %
+	Forward Render	0.452159 %
+	Debug RenderTarget	0.329042 %
+	Others	0.532425 %
+}//RenderManager::RenderDeferred End 
+
+

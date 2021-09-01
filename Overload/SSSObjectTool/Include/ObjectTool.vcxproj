@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{61846E31-5D58-49B1-8402-DB271A49662C}</ProjectGuid>
+    <RootNamespace>Tool</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IntDir>../Debug/</IntDir>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+    <IncludePath>../../Engine/Include/;../../Engine/include/Fbxsdk/;../../Engine/Bin/PhysX/Include/;$(IncludePath)</IncludePath>
+    <LibraryPath>../Bin/;../../Engine/Bin/PhysX/x86/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IntDir>../Debug64/</IntDir>
+    <TargetName>$(ProjectName)64_Debug</TargetName>
+    <IncludePath>../../Engine/Include/;../../Engine/include/Fbxsdk/;../../Engine/Bin/PhysX/Include/;$(IncludePath)</IncludePath>
+    <LibraryPath>../Bin/;../../Engine/Bin/PhysX/x64/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IntDir>../Release/</IntDir>
+    <IncludePath>../../Engine/Include/;../../Engine/include/Fbxsdk/;../../Engine/Bin/PhysX/Include/;$(IncludePath)</IncludePath>
+    <LibraryPath>../Bin/;../../Engine/Bin/PhysX/x86/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IntDir>../Release64/</IntDir>
+    <TargetName>$(ProjectName)64</TargetName>
+    <IncludePath>../../Engine/Include/;../../Engine/include/Fbxsdk/;../../Engine/Bin/PhysX/Include/;$(IncludePath)</IncludePath>
+    <LibraryPath>../Bin/;../../Engine/Bin/PhysX/x64/;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(VC_ExecutablePath_x64);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(FxCopDir);$(PATH);</ExecutablePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions);EDITOR;</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PreBuildEvent>
+      <Command>call $(SolutionDir)CopyTool.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions);EDITOR;</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PreBuildEvent>
+      <Command>call $(SolutionDir)CopyTool.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions);EDITOR;</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PreBuildEvent>
+      <Command>call $(SolutionDir)CopyTool.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions);EDITOR;</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PreBuildEvent>
+      <Command>call $(SolutionDir)CopyTool.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AtlasEditorArchive.h" />
+    <ClInclude Include="ClientComponent\Attack.h" />
+    <ClInclude Include="ClientComponent\BoneDragonAI.h" />
+    <ClInclude Include="ClientComponent\BossHealthBar.h" />
+    <ClInclude Include="ClientComponent\cameramove.h" />
+    <ClInclude Include="ClientComponent\EffectController.h" />
+    <ClInclude Include="ClientComponent\GameSystem.h" />
+    <ClInclude Include="ClientComponent\LetterBox.h" />
+    <ClInclude Include="ClientComponent\LoadingPanel.h" />
+    <ClInclude Include="ClientComponent\MonsterAI.h" />
+    <ClInclude Include="ClientComponent\NPC_IDLE_AI.h" />
+    <ClInclude Include="ClientComponent\Player.h" />
+    <ClInclude Include="ClientComponent\PlayerCamera.h" />
+    <ClInclude Include="ClientComponent\PlayerController.h" />
+    <ClInclude Include="ClientComponent\PostOption.h" />
+    <ClInclude Include="ClientComponent\RadioButton.h" />
+    <ClInclude Include="ClientComponent\Portal.h" />
+    <ClInclude Include="ClientComponent\Splash.h" />
+    <ClInclude Include="ClientComponent\TerrainEditor.h" />
+    <ClInclude Include="ComponentEditManager.h" />
+    <ClInclude Include="DlgAnimationClip.h" />
+    <ClInclude Include="DlgSceneEdit.h" />
+    <ClInclude Include="DlgTabControl.h" />
+    <ClInclude Include="EditorArchive.h" />
+    <ClInclude Include="EditScene.h" />
+    <ClInclude Include="Hierarchy.h" />
+    <ClInclude Include="Inspector.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Tool.h" />
+    <ClInclude Include="ToolDoc.h" />
+    <ClInclude Include="ToolView.h" />
+    <ClInclude Include="Flags.h" />
+    <ClInclude Include="TransitionNode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AtlasEditorArchive.cpp" />
+    <ClCompile Include="ClientComponent\Attack.cpp" />
+    <ClCompile Include="ClientComponent\BoneDragonAI.cpp" />
+    <ClCompile Include="ClientComponent\BossHealthBar.cpp" />
+    <ClCompile Include="ClientComponent\CameraMove.cpp" />
+    <ClCompile Include="ClientComponent\EffectController.cpp" />
+    <ClCompile Include="ClientComponent\GameSystem.cpp" />
+    <ClCompile Include="ClientComponent\LetterBox.cpp" />
+    <ClCompile Include="ClientComponent\LoadingPanel.cpp" />
+    <ClCompile Include="ClientComponent\MonsterAI.cpp" />
+    <ClCompile Include="ClientComponent\NPC_IDLE_AI.cpp" />
+    <ClCompile Include="ClientComponent\Player.cpp" />
+    <ClCompile Include="ClientComponent\PlayerCamera.cpp" />
+    <ClCompile Include="ClientComponent\PlayerController.cpp" />
+    <ClCompile Include="ClientComponent\PostOption.cpp" />
+    <ClCompile Include="ClientComponent\RadioButton.cpp" />
+    <ClCompile Include="ClientComponent\Portal.cpp" />
+    <ClCompile Include="ClientComponent\Splash.cpp" />
+    <ClCompile Include="ClientComponent\TerrainEditor.cpp" />
+    <ClCompile Include="ComponentEditManager.cpp" />
+    <ClCompile Include="DlgAnimationClip.cpp" />
+    <ClCompile Include="DlgSceneEdit.cpp" />
+    <ClCompile Include="DlgTabControl.cpp" />
+    <ClCompile Include="EditorArchive.cpp" />
+    <ClCompile Include="EditScene.cpp" />
+    <ClCompile Include="Hierarchy.cpp" />
+    <ClCompile Include="Inspector.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp" />
+    <ClCompile Include="ToolDoc.cpp" />
+    <ClCompile Include="ToolView.cpp" />
+    <ClCompile Include="TransitionNode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\CopyTool.bat" />
+    <None Include="res\Tool.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Bin\Texture\AnimationController\UnlinkedState.bmp" />
+    <Image Include="res\bitmap2.bmp" />
+    <Image Include="res\Tool.ico" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\ToolDoc.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Tool.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

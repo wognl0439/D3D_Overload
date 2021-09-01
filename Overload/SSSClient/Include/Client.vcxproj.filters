@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Scene\AnimationTestbed.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\CameraMove.cpp">
+      <Filter>03. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Chat.cpp">
+      <Filter>03. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\HierarchyTest.cpp">
+      <Filter>03. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\HowToUse.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SampleScene.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>01. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\TerrainEditor.cpp">
+      <Filter>03. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\TestCameraMove.cpp">
+      <Filter>03. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\TestComponent.cpp">
+      <Filter>03. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Testbed.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Splash.cpp">
+      <Filter>03. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\MonsterAI.cpp">
+      <Filter>03. Component\01. AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\NPC_IDLE_AI.cpp">
+      <Filter>03. Component\01. AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Attack.cpp">
+      <Filter>03. Component\02. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\PlayerController.cpp">
+      <Filter>03. Component\02. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Player.cpp">
+      <Filter>03. Component\02. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\PlayerCamera.cpp">
+      <Filter>03. Component\02. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\EffectController.cpp">
+      <Filter>03. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Attack.cpp" />
+    <ClCompile Include="Component\MonsterAI.cpp" />
+    <ClCompile Include="Component\NPC_IDLE_AI.cpp" />
+    <ClCompile Include="Component\EffectController.cpp">
+      <Filter>03. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\GameSystem.cpp">
+      <Filter>03. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\BoneDragonAI.cpp">
+      <Filter>03. Component\01. AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\LoadingPanel.cpp">
+      <Filter>03. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Portal.cpp">
+      <Filter>03. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\PostOption.cpp">
+      <Filter>03. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\RadioButton.cpp">
+      <Filter>03. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\BossHealthBar.cpp">
+      <Filter>03. Component</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Scene\AnimationTestbed.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\CameraMove.h">
+      <Filter>03. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Chat.h">
+      <Filter>03. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\HierarchyTest.h">
+      <Filter>03. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\HowToUse.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SampleScene.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\TerrainEditor.h">
+      <Filter>03. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\TestComponent.h">
+      <Filter>03. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\TestCameraMove.h">
+      <Filter>03. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Testbed.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Splash.h">
+      <Filter>03. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\MonsterAI.h">
+      <Filter>03. Component\01. AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\NPC_IDLE_AI.h">
+      <Filter>03. Component\01. AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Attack.h">
+      <Filter>03. Component\02. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\PlayerController.h">
+      <Filter>03. Component\02. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Player.h">
+      <Filter>03. Component\02. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\PlayerCamera.h">
+      <Filter>03. Component\02. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\EffectController.h">
+      <Filter>03. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Attack.h" />
+    <ClInclude Include="Component\MonsterAI.h" />
+    <ClInclude Include="Component\NPC_IDLE_AI.h" />
+    <ClInclude Include="Component\EffectController.h">
+      <Filter>03. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\GameSystem.h">
+      <Filter>03. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\BoneDragonAI.h">
+      <Filter>03. Component\01. AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\LoadingPanel.h">
+      <Filter>03. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Portal.h">
+      <Filter>03. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\PostOption.h">
+      <Filter>03. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\RadioButton.h">
+      <Filter>03. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\BossHealthBar.h">
+      <Filter>03. Component</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Icon.png.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="01. Main">
+      <UniqueIdentifier>{75a64ef8-0423-4c21-ae8e-061bb0b82b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Component">
+      <UniqueIdentifier>{51de62db-6e2f-43a3-87fb-9f73f1cb5157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene">
+      <UniqueIdentifier>{4a95fb66-0d1c-4a40-91c4-af841ac3cb50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Component\01. AI">
+      <UniqueIdentifier>{6c4c9f70-6e80-45c4-9a49-f46d336f40cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Component\02. Player">
+      <UniqueIdentifier>{d7a69a9c-76ae-4d8c-9b17-14f6f1bf06eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

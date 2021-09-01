@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ToolView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolDoc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Inspector.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EditScene.cpp">
+      <Filter>소스 파일\01. SceneComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientComponent\CameraMove.cpp">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientComponent\PlayerController.cpp">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Hierarchy.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorArchive.cpp">
+      <Filter>소스 파일\02. Component\01. Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="AtlasEditorArchive.cpp">
+      <Filter>소스 파일\02. Component\01. Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentEditManager.cpp">
+      <Filter>소스 파일\02. Component\01. Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTabControl.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TransitionNode.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAnimationClip.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientComponent\TerrainEditor.cpp">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientComponent\Splash.cpp">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientComponent\Player.cpp">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientComponent\PlayerCamera.cpp">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSceneEdit.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientComponent\EffectController.cpp">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientComponent\Attack.cpp">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientComponent\MonsterAI.cpp">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientComponent\NPC_IDLE_AI.cpp">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientComponent\GameSystem.cpp">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientComponent\BoneDragonAI.cpp">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientComponent\LoadingPanel.cpp">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientComponent\Portal.cpp">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientComponent\PostOption.cpp">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientComponent\RadioButton.cpp">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientComponent\LetterBox.cpp">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientComponent\BossHealthBar.cpp">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tool.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDoc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Inspector.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Flags.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EditScene.h">
+      <Filter>소스 파일\01. SceneComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComponent\cameramove.h">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComponent\PlayerController.h">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Hierarchy.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorArchive.h">
+      <Filter>소스 파일\02. Component\01. Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="AtlasEditorArchive.h">
+      <Filter>소스 파일\02. Component\01. Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentEditManager.h">
+      <Filter>소스 파일\02. Component\01. Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTabControl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TransitionNode.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAnimationClip.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComponent\TerrainEditor.h">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComponent\Splash.h">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComponent\Player.h">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComponent\PlayerCamera.h">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSceneEdit.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComponent\EffectController.h">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComponent\Attack.h">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComponent\MonsterAI.h">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComponent\NPC_IDLE_AI.h">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComponent\GameSystem.h">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComponent\BoneDragonAI.h">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComponent\LoadingPanel.h">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComponent\Portal.h">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComponent\PostOption.h">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComponent\RadioButton.h">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComponent\LetterBox.h">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComponent\BossHealthBar.h">
+      <Filter>소스 파일\03. ClientComponent</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Tool.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Bin\Texture\AnimationController\UnlinkedState.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\CopyTool.bat" />
+    <None Include="res\Tool.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{643cd479-58d0-469d-a565-fe67905bec88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{c29d3363-e40d-461c-bd09-eec9fa7f0e3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. SceneComponent">
+      <UniqueIdentifier>{ae6d58e1-cdbb-4285-9768-8d693659729e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Component">
+      <UniqueIdentifier>{c0c0a2ce-7459-4d65-a22b-8a6931c75108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Component\01. Singleton">
+      <UniqueIdentifier>{ca30ae10-56a0-47f4-bea6-3d1333d99b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{decdb1c3-6e6b-49d3-bd75-5d5ad00e2010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. ClientComponent">
+      <UniqueIdentifier>{c5bdf5ad-2e99-4e8d-947c-a5a741ab55d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
